@@ -7,7 +7,7 @@
 [![NPM status](https://nodei.co/npm/random-weighted-item.png?downloads=true&stars=true)](https://npmjs.org/package/random-weighted-item
 )
 
-JavaScript library to get random item from an array by probability function. The probability function takes the current value and current index respectively as arguments. The real probability to obtain a particular item is `Math.exp(probabilityFunctionReturnedValue)`
+JavaScript library to get random item from an array by probability function. The probability function takes the current value and the current index respectively as arguments. The real probability to obtain a particular item is `Math.exp(probabilityFunctionReturnedValue)`.
 
 ## install
 `npm install --save random-weighted-item`
