@@ -14,7 +14,7 @@ JavaScript library to get random item from an array by probability function. The
 
 ## usage
 ```
-const getRandomItem = require('random-weighted-item');
+const getRandomItem = require('random-weighted-item').default;
 
 const array = [3, 7, 1, 4, 2];
 const getWeight = value => value;
