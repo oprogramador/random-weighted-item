@@ -8,8 +8,9 @@ function getRandomItem(array, getWeight) {
     (accumulator, value) => [...accumulator, (_.last(accumulator) || 0) + value],
     []
   );
+  const random = Math.random();
 
-  return array[_.findIndex(probabilities, probability => Math.random() < probability)];
+  return array[_.findIndex(probabilities, probability => random < probability)];
 }
 
 export default getRandomItem;
