@@ -1,14 +1,14 @@
 {
   "name": "random-weighted-item",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generator of random item in array by probability function",
   "main": "build/index.js",
   "scripts": {
-    "build": "rm -rf build && babel src --out-dir build --ignore tests",
+    "build": "rm -rf build && babel src --out-dir build --ignore tests/",
     "create-project-symlink": "scripts/create-project-symlink.sh",
     "lint": "eslint src",
     "postinstall": "npm run create-project-symlink",
-    "prepublish": "npm run build",
+    "prepublishOnly": "npm run build",
     "test": "mocha -r babel-register --recursive src/tests --timeout 5000"
   },
   "repository": {
