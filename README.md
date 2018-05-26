@@ -13,7 +13,7 @@ JavaScript library to get random item from an array by probability function. The
 `npm install --save random-weighted-item`
 
 ## usage
-```
+```js
 const getRandomItem = require('random-weighted-item').default;
 
 const array = [3, 7, 1, 4, 2];
