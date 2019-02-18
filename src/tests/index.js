@@ -6,4 +6,3 @@ describe('index', () => {
     expect(getRandomItem).to.be.a('function');
   });
 });
-
