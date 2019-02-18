@@ -6,7 +6,7 @@ function getRandomItem(array, getWeight) {
   const alignedWeights = weights.map(weight => weight / sum);
   const probabilities = alignedWeights.reduce(
     (accumulator, value) => [...accumulator, (_.last(accumulator) || 0) + value],
-    []
+    [],
   );
   const random = Math.random();
 
